@@ -11,6 +11,9 @@ margin-bottom: 40px;
     gap: 40px;
     margin-bottom: 80px;
 }
+.list:nth-child(even) {
+    flex-direction: row-reverse;
+}
 .image{
     width: 240px;
     height: auto;
