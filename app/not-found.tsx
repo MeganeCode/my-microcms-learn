@@ -1,8 +1,5 @@
 import styles from "./not-found.module.css";
-
-
-
-export default function Home() {
+export default function NotoFound() {
   return (
     <div className={styles.container}>
       <dl>
