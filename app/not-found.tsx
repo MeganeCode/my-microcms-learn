@@ -9,7 +9,6 @@ export default function NotoFound() {
           URLを再度ご確認ください。
         </dd>
       </dl>
-     
     </div>
   );
 }
