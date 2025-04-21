@@ -21,8 +21,8 @@ export type News = {
   title: string;
   description: string;
   content: string;
-  category: Category;
   thumbnail?: MicroCMSImage;
+  category: Category;
 } & MicroCMSListContent;
 
 if (!process.env.MICROCMS_SERVICE_DOMAIN) {
@@ -68,7 +68,7 @@ export const getCategoryDetail = async (
   contentId: string,
   queries?: MicroCMSQueries
 ) => {
-  const detailData = await client.getListDetail<News>({
+  const detailData = await client.getListDetail<Category>({
     endpoint: "categories",
     contentId,
     queries,
