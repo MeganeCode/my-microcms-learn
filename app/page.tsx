@@ -5,12 +5,11 @@ import { TOP_NEWS_LIMIT } from "./_constants";
 import NewsList from "@/app/_components/NewsList";
 import ButtonLink from "@/app/_components/ButtonLink";
 
-// const sliceData : News=[];
+export const revalidate = 60;
 
 export default async function Home() {
   const data = await getNewsList({limit:TOP_NEWS_LIMIT});
 
-  // const sliceData = data.contents.slice(0, 2);
   return (
     <>
      <section className={styles.top}>
