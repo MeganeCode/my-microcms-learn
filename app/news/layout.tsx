@@ -3,6 +3,9 @@ import Hero from "../_components/Hero";
 type Props = {
   children: React.ReactNode;
 };
+export const metadata = {
+  title: "ニュース",
+};
 
 export const revalidate = 60;
 

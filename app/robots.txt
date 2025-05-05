@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Aitemap: https://my-microcms-learn.vercel.app//sitemap.xml
